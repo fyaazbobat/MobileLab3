@@ -32,4 +32,6 @@
     <string name="select"> Select</string>
     <string name="cancel"> Cancel</string>
 
+    <string name="firstName"> Fyaaz </string>
+    <string name="lastName"> Bobat </string>
 </resources>
