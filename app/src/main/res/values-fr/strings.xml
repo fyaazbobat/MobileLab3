@@ -4,4 +4,32 @@
     <string name="title_home">maison</string>
     <string name="title_dashboard">Tableau de bord</string>
     <string name="title_notifications">Notifications</string>
+    <string name="name">Fyaaz Bobat - 301071094 </string>
+
+    <string-array name="thicknessbrush">
+        <item>2f</item>
+        <item>4f</item>
+        <item>6f</item>
+        <item>8f</item>
+        <item>10f</item>
+    </string-array>
+
+    <string-array name="brushcolor">
+    <item>Black</item>
+    <item>White</item>
+    <item>Purple</item>
+    <item>Grey</item>
+    <item>Blue</item>
+</string-array>
+
+    <string-array name="spinnerTimer">
+        <item>0.2 sec</item>
+        <item>0.4 sec</item>
+        <item>0.6 sec</item>
+        <item>0.8 sec</item>
+    </string-array>
+
+    <string name="select"> Select</string>
+    <string name="cancel"> Cancel</string>
+
 </resources>
