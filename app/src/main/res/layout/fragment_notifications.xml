@@ -9,6 +9,16 @@
     android:background="#074F59"
     tools:context=".ui.notifications.S301071094Fragment">
 
+    <Button
+        android:id="@+id/btnstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/btnstop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstName" />
+
     <TextView
         android:id="@+id/firstName"
         android:layout_width="wrap_content"
@@ -42,7 +52,7 @@
         android:layout_width="197dp"
         android:layout_height="168dp"
         android:layout_marginStart="87dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="300dp"
         android:layout_marginEnd="89dp"
         android:src="@drawable/earth"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,29 +65,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="144dp"
-        android:layout_marginTop="83dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="46dp"
         android:text="@string/btnstart"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/btnstop"
         app:layout_constraintTop_toBottomOf="@+id/lastName" />
-
-    <Button
-        android:id="@+id/btnstop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="83dp"
-        android:text="@string/btnstop"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstName" />
 
     <ImageView
         android:id="@+id/moon"
         android:layout_width="117dp"
         android:layout_height="124dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="73dp"
+        android:layout_marginTop="44dp"
         android:src="@drawable/moon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnstop" />
