@@ -34,5 +34,8 @@
     <string name="firstName"> Fyaaz </string>
     <string name="lastName">  Bobat </string>
 
+    <string name="btnstart">  Start </string>
+    <string name="btnstop">  Stop </string>
+
 
 </resources>
